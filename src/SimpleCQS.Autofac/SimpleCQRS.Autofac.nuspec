@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimpleCQS.Autofac</id>
+    <version>$version$</version>
+    <authors>jarocki76</authors>
+    <owners>jarocki76</owners>
+    <projectUrl>https://github.com/jarocki76/SimpleCQS.Autofac</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SimpleCQS Autofac Extensions</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>SimpleCQS Autofac Extensions</tags>
+  </metadata>
+</package>
