@@ -15,7 +15,7 @@ namespace SimpleCQS.Autofac
     {
       builder.RegisterComponentContextResolveAsFunc();
       builder.RegisterType<ValidationProcessor>().As<IValidationProcessor>().SingleInstance();
-      const string name = "Dispatcher";
+      const string name = "SimpleDispatcher";
       builder.RegisterType<CommandDispatcher>().Named<ICommandDispatcher>(name).SingleInstance();
       builder.RegisterDecorator<ICommandDispatcher>(
         (c, inner) => new ValidatedCommandDispatcher(inner, c.Resolve<IValidationProcessor>()), name).SingleInstance();
